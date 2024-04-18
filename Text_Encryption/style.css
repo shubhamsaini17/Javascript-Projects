@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+body {
+    font-family: 'Tilt Prism', cursive;
+    background-color: #000000;
+    color: #ECF0F1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+#key{
+  width: 80px;
+  height: 30px;
+}
+textarea {
+    background-color: #ffffff;
+    color: #2C3E50;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 20px;
+    height: 150px;
+    padding: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+/* CSS */
+.button-32 {
+  background-color: #fff000;
+  border-radius: 12px;
+  color: #000;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;
+  width: 120px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 0 30px;
+}
+
+.button-32:not(:disabled):hover,
+.button-32:not(:disabled):focus {
+  outline: 0;
+  background: #f4e603;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.button-32:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}

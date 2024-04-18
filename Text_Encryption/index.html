@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Caesar Cipher</h1>
+        <textarea id="text" cols="30" rows="10" placeholder="Enter Text To Encrypt / Decrypt"></textarea>
+        <div class="buttons-container">
+            <button id="encrypt" class="button-32" role="button">Encrypt</button>
+            <input id="key" type="number" placeholder="Key" min="1" max="25" oninput="validateKeyInput(this)">
+            <button id="decrypt" class="button-32" role="button">Decrypt</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
